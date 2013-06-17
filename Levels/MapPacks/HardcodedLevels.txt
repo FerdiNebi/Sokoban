@@ -1,0 +1,14 @@
+﻿{
+	"mapFileNames" : [
+		"TestLevel1",
+		"TestLevel2",
+		"TestLevel3",
+		"TestLevel4",
+		"TestLevel5",
+		"TestLevel6",
+		"TestLevel7",
+	],
+	"fileExtension" : "",
+	"mapsSourceType" : "hardcodedTest",
+	"directory" : "..\\..\\Levels\\HardcodedLevels",
+}

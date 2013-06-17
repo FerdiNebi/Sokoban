@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NotJustSokoban.CollisionDetector" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Collision Detection\CollisionDetector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.Referee" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Collision Detection\Referee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.Engine" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACVAABIYAABABICAAAAAAAgAAAgAAAAoQCAAAAAAgAI=</HashCode>
+      <FileName>Classes\Engine\Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.Box" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Game Objects\Box.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.GameObject" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAAAACAAEAAAAAAAIAAQAQAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Game Objects\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NotJustSokoban.MoveableObject" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Game Objects\MoveableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.Player" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAAAAAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Game Objects\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.StaticObject" Collapsed="true">
+    <Position X="1.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Game Objects\StaticObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.Target" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Game Objects\Target.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.Wall" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Game Objects\Wall.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.FileJSONMapLoader" Collapsed="true">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Classes\Map\FileJSONMapLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.HardcodedMapLoader" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAABAACAAABAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Classes\Map\HardcodedMapLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.Map" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAgAQAAAIAhQAAAAAAAAQAACBCCAAAQAAAAAAAIAQ=</HashCode>
+      <FileName>Classes\Map\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.MapBuilder" Collapsed="true">
+    <Position X="15" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABEAAAgAAAAAAAAAAgAAABCAgAAAACAAAQCIIAA=</HashCode>
+      <FileName>Classes\Map\MapBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.MapLoader" Collapsed="true">
+    <Position X="16.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAgAAAAQAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Map\MapLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.ConsoleRenderer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQBABAAAAAAAAAIQAAAACBAAACAAAAEAgAA=</HashCode>
+      <FileName>Classes\Renderer\ConsoleRenderer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NotJustSokoban.Keyboard" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAEAAEAAAAAAgBAAAAAAAAAAACAA=</HashCode>
+      <FileName>Classes\UserInput\Keyboard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="NotJustSokoban.PlayerArgs" Collapsed="true">
+    <Position X="9.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>EventArgs\PlayerArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.UnknownSymbolInHardcodedMapException" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\UnknownSymbolInHardcodedMapException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.WrongMapNameException" Collapsed="true">
+    <Position X="13.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\WrongMapNameException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.WrongSourceTypeException" Collapsed="true">
+    <Position X="15" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\WrongSourceTypeException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.GameLoader" Collapsed="true">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAQAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>GameLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="16.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAACAAJAAAAAAAAQAAAAEAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Classes\Timer\Timer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.Classes.Timer.TimeOutException" Collapsed="true">
+    <Position X="15" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\TimeOutException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.Classes.Game_Objects.TooManyPlayersException" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\TooManyPlayersException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.Properties.Resources" Collapsed="true">
+    <Position X="13.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAABAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NotJustSokoban.FileLoader" Collapsed="true">
+    <Position X="16.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\File Loading\FileLoader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="NotJustSokoban.TestLevel1" Collapsed="true">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAQ=</HashCode>
+      <FileName>Levels\HardcodedLevels\TestLevel1.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="NotJustSokoban.TestLevel2" Collapsed="true">
+    <Position X="13.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAQ=</HashCode>
+      <FileName>Levels\HardcodedLevels\TestLevel2.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="NotJustSokoban.TestLevel3" Collapsed="true">
+    <Position X="15" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAQ=</HashCode>
+      <FileName>Levels\HardcodedLevels\TestLevel3.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="NotJustSokoban.TestLevel4" Collapsed="true">
+    <Position X="16.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAQ=</HashCode>
+      <FileName>Levels\HardcodedLevels\TestLevel4.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="NotJustSokoban.TestLevel5" Collapsed="true">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAQ=</HashCode>
+      <FileName>Levels\HardcodedLevels\TestLevel5.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="NotJustSokoban.TestLevel6" Collapsed="true">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAQ=</HashCode>
+      <FileName>Levels\HardcodedLevels\TestLevel6.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="NotJustSokoban.AbstractMap2D" Collapsed="true">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAgBAAFAAAAhQAAAIAAAAQAAAAEAAAAAAAAAAhAIAQ=</HashCode>
+      <FileName>Structs\AbstractMap2D.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="NotJustSokoban.Vector2D" Collapsed="true">
+    <Position X="15" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAABCAE4AEAAAAAAAAEAIAAAABgBAAAYiA=</HashCode>
+      <FileName>Structs\Vector2D.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="NotJustSokoban.TestLevel7" Collapsed="true">
+    <Position X="13.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAQ=</HashCode>
+      <FileName>Levels\HardcodedLevels\TestLevel7.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="NotJustSokoban.ICollidable" Collapsed="true">
+    <Position X="11.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ICollidable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NotJustSokoban.IRenderable" Collapsed="true">
+    <Position X="13.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRenderable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NotJustSokoban.IRenderer" Collapsed="true">
+    <Position X="15" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAIQAAAACAAAACAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NotJustSokoban.IUserInterface" Collapsed="true">
+    <Position X="16.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAEAAEAAAAAAgBAAAAAAAAAAACAA=</HashCode>
+      <FileName>Interfaces\IUserInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="NotJustSokoban.Difficulty" Collapsed="true">
+    <Position X="15" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCBAAAAAAAAAAAAAAAAAAAAAAAAACAAgABA=</HashCode>
+      <FileName>Enums\Difficulty.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

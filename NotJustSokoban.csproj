@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D47AB18D-2427-4F1D-AE05-2E94A62A35C0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NotJustSokoban</RootNamespace>
+    <AssemblyName>NotJustSokoban</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\File Loading\FileLoader.cs" />
+    <Compile Include="Classes\JSONParser\JTokenToTypeConverter.cs" />
+    <Compile Include="Classes\JSONParser\ParseJSONMappackToNormalMappack.cs" />
+    <Compile Include="Classes\JSONParser\ParseJSONMapToAbstractMap2D.cs" />
+    <Compile Include="Classes\Map\MappackLoader.cs" />
+    <Compile Include="Classes\Map\Mappack.cs" />
+    <Compile Include="Structs\AbstractMap2D.cs" />
+    <Compile Include="Classes\Game Objects\Box.cs" />
+    <Compile Include="Classes\Collision Detection\CollisionDetector.cs" />
+    <Compile Include="Classes\Timer\Timer.cs" />
+    <Compile Include="Exceptions\TimeOutException.cs" />
+    <Compile Include="Classes\Map\MapBuilder.cs" />
+    <Compile Include="Exceptions\UnknownSymbolInHardcodedMapException.cs" />
+    <Compile Include="Exceptions\TooManyPlayersException.cs" />
+    <Compile Include="Exceptions\WrongSourceTypeException.cs" />
+    <Compile Include="Exceptions\WrongMapNameException.cs" />
+    <Compile Include="Classes\Renderer\ConsoleRenderer.cs" />
+    <Compile Include="Enums\Difficulty.cs" />
+    <Compile Include="Classes\Engine\Engine.cs" />
+    <Compile Include="Classes\Game Objects\GameObject.cs" />
+    <Compile Include="Classes\Map\HardcodedMapLoader.cs" />
+    <Compile Include="Classes\Map\FileJSONMapLoader.cs" />
+    <Compile Include="Interfaces\ICollidable.cs" />
+    <Compile Include="Interfaces\IRenderable.cs" />
+    <Compile Include="Interfaces\IRenderer.cs" />
+    <Compile Include="Interfaces\IUserInterface.cs" />
+    <Compile Include="Classes\UserInput\Keyboard.cs" />
+    <Compile Include="Classes\Map\Map.cs" />
+    <Compile Include="Classes\Map\MapLoader.cs" />
+    <Compile Include="Classes\Game Objects\MoveableObject.cs" />
+    <Compile Include="Classes\Game Objects\Player.cs" />
+    <Compile Include="GameLoader.cs" />
+    <Compile Include="Levels\HardcodedLevels\TestLevel4.cs" />
+    <Compile Include="Levels\HardcodedLevels\TestLevel5.cs" />
+    <Compile Include="Levels\HardcodedLevels\TestLevel6.cs" />
+    <Compile Include="EventArgs\PlayerArgs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\Collision Detection\Referee.cs" />
+    <Compile Include="Classes\Game Objects\StaticObject.cs" />
+    <Compile Include="Classes\Game Objects\Target.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Structs\Vector2D.cs" />
+    <Compile Include="Classes\Game Objects\Wall.cs" />
+    <Compile Include="Levels\HardcodedLevels\TestLevel1.cs" />
+    <Compile Include="Levels\HardcodedLevels\TestLevel2.cs" />
+    <Compile Include="Levels\HardcodedLevels\TestLevel3.cs" />
+    <Compile Include="Levels\HardcodedLevels\TestLevel7.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Diagrams\SokobanClassDiagram.cd" />
+    <None Include="Levels\FileLevels\Level1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Levels\FileLevels\Level2.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Levels\FileLevels\Level3.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Levels\FileLevels\Level4.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Levels\FileLevels\Level5.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Levels\FileLevels\Level6.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Levels\FileLevels\Level7.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Levels\MapPacks\EasyMaps.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Levels\MapPacks\HardcodedLevels.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Levels\MapPacks\HardMaps.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Levels\MapPacks\InsaneMaps.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Levels\MapPacks\ModerateMaps.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+﻿{
+	"mapFileNames" : [
+		"Level2",
+		"Level4",
+		"Level5",
+	],
+	"fileExtension" : ".txt",
+	"mapsSourceType" : "file/JSON",
+	"directory" : "..\\..\\Levels\\FileLevels",
+}
